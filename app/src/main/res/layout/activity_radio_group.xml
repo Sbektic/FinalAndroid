@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zuco.finalandroid.Activity.RadioGroupActivity">
+
+    <RadioGroup
+        android:id="@+id/activity_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Cake"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Bread"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Muffin"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/activity_radio_group_submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:paddingTop="30dp"
+        android:gravity="center"/>
+    
+</LinearLayout>

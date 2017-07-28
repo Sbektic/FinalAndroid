@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zuco.finalandroid.Activity.CheckBoxActivity">
+
+
+    <CheckBox
+        android:id="@+id/activity_check_box_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text=" $15.00 Cake"/>
+    <CheckBox
+        android:id="@+id/activity_check_box_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="$6.00 Bread"/>
+    <CheckBox
+        android:id="@+id/activity_check_box_3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="$3.00 Muffin"/>
+
+    <Button
+        android:id="@+id/activity_check_box_submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Submit"/>
+
+
+
+</LinearLayout>

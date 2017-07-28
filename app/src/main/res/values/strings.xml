@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FinalAndroid</string>
+
+
+    <string name="make_an_order">Item List</string>
+    <string name="dialog_title">In Refrigrator</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Cancel</string>
+    <string name="clear_all_label">Clear all</string>
+    <string name="recipes">Recipes</string>
+    <string name="handler">Handler</string>
+    <string name="timer">Timer</string>
+    <string name="page">pagerRecipes</string>
+    <string name="test">test</string>
+    <string name="radio">radiobut</string>
+    <string name="Dialog">dialog</string>
+    <string name="Checkbox">checkbox</string>
+    <string name="Handler">Handler</string>
+    <string name="Calculator">Calculator</string>
+    <string name="Ingredientsneeded">Ingredients needed</string>
+    <string name="start_service">Start service</string>
+    <string name="waiting">waiting</string>
+
+    <string-array name="shopping_item">
+        <item>Flour</item>
+        <item>Sugar</item>
+        <item>Salt</item>
+        <item>Eggs</item>
+        <item>Water</item>
+    </string-array>
+</resources>

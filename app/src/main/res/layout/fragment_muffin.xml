@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/muffin"
+        android:id="@+id/imv2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Items Needed"
+        android:textSize="24dp"
+        android:layout_below="@+id/imv2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tx2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20min: Flour, Sugar, and Water"
+        android:textSize="16dp"
+        android:layout_below="@+id/tx2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
